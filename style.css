@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    font-family: Besley, serif;
+    display: flex;
+    flex-direction: column;
+    /*background-image: url("/images/farm.jpg");
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height:500px;*/
+}
+
+.header{ 
+  font-family: monospace;
+  background: #1f2938;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  font-size: 18px;
+  padding: 5px;
+}
+
+img{
+  width: 300px;
+  height: 200px;
+  margin: 10px 20px;
+  border: none;
+  border-radius: 8px;
+}
+
+button{
+   background-color: #388236;
+   display: flex;
+   border: none;
+   border-radius: 8px;
+   padding: 10px 20px;
+}
+
+
+.container{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 70px;
+}
+
+.footer{
+   background-color: #1f2937;
+   font-size: 15px;
+   padding: 20px;
+   margin-top: 13em;
+   display: flex;
+   flex:1;
+   align-items: center;
+   justify-content: center;
+}
+
+ul{
+  list-style-type: none;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+ 
+}
+
+.middle{
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 40px;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 50px;
+}
+
+.center{
+  margin-top: 10px;
+  text-align: center;
+}
+
+.text{
+  margin-bottom: 16px;
+}
+
+.background{
+  display: flex;
+  background-color: rgb(42, 42, 65);
+  padding: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.thor{
+   margin-top: 120px;
+}
+
+.end{
+  display: flex;
+  padding: 40px;
+  margin: 70px;
+  background-color: cadetblue;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 4px;
+}
+
+a:link {text-decoration: none;}
